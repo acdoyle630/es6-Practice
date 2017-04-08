@@ -9,8 +9,8 @@ describe('`let` restricts the scope of the variable to the current block', () =>
     it('`var` works as usual', () => {
       if (true) {
         let varX = true;
-      }
       assert.equal(varX, true);
+      }
     });
 
     it('`let` restricts scope to inside the block', () => {
